@@ -5,15 +5,45 @@
 --secondary-font:'Chathura', sans-serif
 --primary-color:#892f73}
 
-/* grid visualization */
 
-.row {border:2px solid black;
-color:aquamarine;}
-.col-2 {background-color:blueviolet;}
+/* navigation styling */ 
+
+nav ul {list-style:none;
+background-color:#4f4f4f;
+text-align:center;
+margin:0;
+padding:0;
+}
+
+nav li {font-size:1.2em;
+line-height:40px;
+height:40px;
+display:inline-block;
+margin:2.5%;
+}
+
+
+nav a {text-decoration:none;
+color:#fff;
+display:inline-block;}
+
+
+nav a:hover {background-color:#fff;
+color:#4f4f4f;}
 
 
 body {min-height:100vh;
 display:flex;
-flex-direction:column}
+flex-direction:column;
+margin:0;
+padding: 4px;
+font-family:'Oxanium', sans-serif;
 
-footer {margin-top:auto;}
+}
+/* section visualization */
+.row {border:2px solid black;
+}
+
+
+footer {margin-top:auto;} 
+
