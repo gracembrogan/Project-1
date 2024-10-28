@@ -1,0 +1,19 @@
+/* google fonts import */
+
+/* CSS variables */
+:root {--primary-font:'Oxanium', sans-serif
+--secondary-font:'Chathura', sans-serif
+--primary-color:#892f73}
+
+/* grid visualization */
+
+.row {border:2px solid black;
+color:aquamarine;}
+.col-2 {background-color:blueviolet;}
+
+
+body {min-height:100vh;
+display:flex;
+flex-direction:column}
+
+footer {margin-top:auto;}
